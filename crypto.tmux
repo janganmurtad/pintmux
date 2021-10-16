@@ -10,6 +10,8 @@ crypto_commands=(
   "#($CURRENT_DIR/scripts/btc_idr.sh)"
   "#($CURRENT_DIR/scripts/eth_idr.sh)"
   "#($CURRENT_DIR/scripts/bnb_idr.sh)"
+  "#($CURRENT_DIR/scripts/doge_idr.sh)"
+  "#($CURRENT_DIR/scripts/perp_idr.sh)"
 )
 
 crypto_interpolation=(
@@ -19,6 +21,8 @@ crypto_interpolation=(
 	"\#{btc_idr}"
 	"\#{eth_idr}"
 	"\#{bnb_idr}"
+	"\#{perp_idr}"
+	"\#{doge_idr}"
 )
 
 set_tmux_options() {

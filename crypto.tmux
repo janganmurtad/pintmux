@@ -6,6 +6,7 @@ source "$CURRENT_DIR/scripts/helpers.sh"
 crypto_commands=(
   "#($CURRENT_DIR/scripts/ada_idr.sh)"
   "#($CURRENT_DIR/scripts/ren_idr.sh)"
+  "#($CURRENT_DIR/scripts/matic_idr.sh)"
   "#($CURRENT_DIR/scripts/ada_usd.sh)"
   "#($CURRENT_DIR/scripts/ada_eur.sh)"
   "#($CURRENT_DIR/scripts/ada_aud.sh)"
@@ -83,6 +84,7 @@ crypto_commands=(
 crypto_interpolation=(
 	"\#{ada_idr}"
 	"\#{ren_idr}"
+	"\#{matic_idr}"
 	"\#{ada_usd}"
 	"\#{ada_idr}"
 	"\#{ada_eur}"

@@ -7,12 +7,18 @@ crypto_commands=(
   "#($CURRENT_DIR/scripts/ada_idr.sh)"
   "#($CURRENT_DIR/scripts/ren_idr.sh)"
   "#($CURRENT_DIR/scripts/matic_idr.sh)"
+  "#($CURRENT_DIR/scripts/btc.sh)"
+  "#($CURRENT_DIR/scripts/eth_idr.sh)"
+  "#($CURRENT_DIR/scripts/bnb_idr.sh)"
 )
 
 crypto_interpolation=(
 	"\#{ada_idr}"
 	"\#{ren_idr}"
 	"\#{matic_idr}"
+	"\#{btc_idr}"
+	"\#{eth_idr}"
+	"\#{bnb_idr}"
 )
 
 set_tmux_options() {
